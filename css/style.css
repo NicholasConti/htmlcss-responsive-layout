@@ -93,11 +93,8 @@ li:last-child{
 }
 /* ------------------------------------ */
 /* MAIN */
-
+/* 1st */
 @media screen and (min-width:768px){
-    #1st .flex{
-        gap: 20px;
-    }
     .col:first-child{
         width: calc((100% / 3) * 2 );
        
@@ -105,6 +102,38 @@ li:last-child{
     .col{
         width: calc(100% / 3 - 20px );
         margin: 10px 0;
-    }
+    }   
+}
+
+#second{
+    background-color: var(--violet);
+}
+
+.sez-bianca{
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 35px 20px;
+    margin: 40px 0;
+}
+
+.download{
+    background-color: var(--violet);
+    padding: 15px;
+    border-radius: 50%;
     
+}
+
+@media screen and (min-width:992px){
+    #second .container{
+        display: flex;
+        justify-content: center;
+    }
+    #second .container > div{
+        width: 30%;
+    }
+    .sez-bianca{
+        align-self: flex-end;
+    }
 }
