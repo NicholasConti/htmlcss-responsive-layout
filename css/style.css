@@ -104,7 +104,7 @@ li:last-child{
         margin: 10px 0;
     }   
 }
-
+/* ------------------------------------ */
 #second{
     background-color: var(--violet);
     padding-top: 50px;
@@ -143,3 +143,51 @@ li:last-child{
    .block2{
     padding-top: 150px;
    }
+}
+/* ------------------------------------ */
+/* 3RD */
+#third{
+    text-align: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--violet);
+    border-radius: 40px;
+    width: 100%;
+    margin: 30px 0;
+    color: white;
+    padding: 30px 0;
+}
+#third .img-test{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.n1{
+    background-image: url(../img/testimonial1.jpg);
+}
+.n2{
+    background-image: url(../img/testimonial2.jpg);
+}
+.n3{
+    background-image: url(../img/testimonial3.jpg);
+}
+
+@media screen and (min-width:768px){
+    .card{
+        flex-direction: row;
+        text-align: left;
+        padding: 30px 15px;
+    } 
+
+    .card div:last-child{
+        width: 65%;
+        padding: 0 65px;
+    }
+}
+/* ------------------------------------ */
