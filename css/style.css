@@ -3,3 +3,69 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root {
+  --blue: #1e90ff;
+  --lblue: #b5ddff;
+  --violet: #9792e4;
+}
+
+
+/* ------------------------------------ */
+/* COMMON */
+
+.container{
+    padding: 15px 30px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* ------------------------------------ */
+/* HEADER */
+header{
+    background-color:var(--blue);
+    color: white;
+
+}
+ul{
+    list-style-type: none;
+    display: none;
+    align-items: center;
+    gap: 1.5625rem;
+}
+
+li:last-child{
+    color: black;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+@media screen and (min-width:992px) {
+    .container{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    
+    header ul{
+        display: flex;
+    }
+
+    header i.fa-solid{
+        display: none;
+    }
+}
+/* ------------------------------------ */
