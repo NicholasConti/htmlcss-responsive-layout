@@ -159,7 +159,7 @@ li:last-child{
     color: white;
     padding: 30px 0;
 }
-#third .img-test{
+.img-test{
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -216,3 +216,22 @@ li:last-child{
 }
 /* ------------------------------------ */
 /* 5TH */
+.n4{
+    background-image: url(../img/about.jpg);
+    margin: 50px 0 30px;
+}
+
+@media screen and (min-width:768px){
+    .about{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .n4{
+        margin: 0;
+    }
+
+    .about p{
+        margin: 50px 0;
+    }
+}
