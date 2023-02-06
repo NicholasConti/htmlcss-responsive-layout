@@ -107,15 +107,20 @@ li:last-child{
 
 #second{
     background-color: var(--violet);
+    padding-top: 50px;
 }
 
 .sez-bianca{
     width: 100%;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 40px;
     text-align: center;
     padding: 35px 20px;
     margin: 40px 0;
+}
+
+.sez-bianca p{
+    margin-bottom: 30px;
 }
 
 .download{
@@ -129,11 +134,12 @@ li:last-child{
     #second .container{
         display: flex;
         justify-content: center;
+        gap: 80px;
     }
     #second .container > div{
-        width: 30%;
+        width: 40%;
+        align-items: flex-end;
     }
-    .sez-bianca{
-        align-self: flex-end;
-    }
-}
+   .block2{
+    padding-top: 150px;
+   }
